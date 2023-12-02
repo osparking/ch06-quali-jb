@@ -1,9 +1,9 @@
 package ch06.depend;
 
 class Car {
-	private int maxSpeed;
+	private Driver driver;
 
-	public void setMaxSpeed(int maxSpeed) {
-		this.maxSpeed = maxSpeed;
+	Car(Context context) {
+		this.driver = context.getDriver();
 	}
 }
