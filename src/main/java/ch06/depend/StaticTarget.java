@@ -10,3 +10,4 @@ public class StaticTarget {
 		return result;
 	}
 }
+
