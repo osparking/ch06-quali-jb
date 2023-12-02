@@ -1,8 +1,14 @@
 package ch06.depend;
 
 public class Reservation {
+	DBManager manager;
 	
+	public Reservation(DBManager manager) {
+		this.manager = manager;
+	}
+
 	public void makeReservation() {
-		DBManager.manager.initDatabase();
+		manager.initDatabase();
 	}
 }
+
