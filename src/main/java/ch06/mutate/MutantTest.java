@@ -8,7 +8,7 @@ public class MutantTest {
 	private static int changeBeta(boolean a) {
 		int b = 0;
 		
-		if (a) {
+		if (!a) {
 			b = 1;
 		} else {
 			b = 2;
